@@ -1,7 +1,7 @@
-##Big Data Ingestion Pipeline
+# Big Data Ingestion Pipeline
 This repository contains the code and configuration for setting up a big data ingestion pipeline on AWS using Terraform. The pipeline is designed to efficiently ingest, transform, and analyze large volumes of data stored in S3 buckets.
 
-#Overview
+## Overview
 The pipeline consists of several components working together to achieve the following objectives:
 
 Input Data Ingestion: Data is uploaded to an S3 bucket, which triggers an event that kicks off the ingestion pipeline.
