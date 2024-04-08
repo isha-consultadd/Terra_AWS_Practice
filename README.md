@@ -4,7 +4,7 @@ This repository contains the code and configuration for setting up a big data in
 ## Overview
 The pipeline consists of several components working together to achieve the following objectives:
 
-Input Data Ingestion: Data is uploaded to an S3 bucket, which triggers an event that kicks off the ingestion pipeline.
+- **Input Data Ingestion: Data is uploaded to an S3 bucket, which triggers an event that kicks off the ingestion pipeline.
 
 Event Trigger: An EventBridge rule captures S3 Put events and triggers a Lambda function.
 
